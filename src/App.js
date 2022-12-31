@@ -4,7 +4,7 @@ import {FiSettings} from 'react-icons/fi'
 import {TooltipComponent} from '@syncfusion/ej2-react-popups'
 
 import {Navbar, Footer, Header, Sidebar, ThemeSettings} from './components';
-import {Article, CustomTool, Dashboard, Editor, Paragraph} from './pages';
+import {Article, CustomTool, Dashboard, Editor, Paragraph, ChatBox} from './pages';
 
 import './App.css'
 
@@ -70,6 +70,7 @@ const App = () => {
             <Route path='/article' element={<Article />} />
             <Route path='/paragraph' element={<Paragraph />} />
             <Route path='/custom' element={<CustomTool />} />
+            <Route path='/chatbox' element={<ChatBox />} />
 
 
           </Routes>

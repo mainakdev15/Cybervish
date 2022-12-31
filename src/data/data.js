@@ -70,6 +70,10 @@ export const links = [
             name: 'Custom Tool',
             icon: <AiFillTool />,
           },
+          {
+            name: 'ChatBox',
+            icon: <AiFillTool />,
+          },
       ],
     },
   ];

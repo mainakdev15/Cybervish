@@ -24,7 +24,7 @@ class Article extends Component{
     ////OPENAI
     
     const configuration = new Configuration({
-      apiKey: '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',
+      apiKey: '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',
     });
     const openai = new OpenAIApi(configuration);
     
